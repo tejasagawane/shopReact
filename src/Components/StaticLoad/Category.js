@@ -10,7 +10,6 @@ function Category(props) {
 
   useEffect(() => {
     axios
-      //.get("http://localhost:8080/api/v1/staticDropdown/categories")
       .get(URL, {
         headers: {
           "Content-Type": "application/json",

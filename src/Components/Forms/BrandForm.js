@@ -27,7 +27,6 @@ function BrandForm(props) {
     });
     //alert(data);
     axios
-      //.post("http://localhost:8080/api/v1/staticDropdown/brand/add", data, {
       .post(URL, data, {
         headers: {
           "Content-Type": "application/json",

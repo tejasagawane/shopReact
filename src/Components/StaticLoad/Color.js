@@ -9,7 +9,6 @@ function Color(props) {
   const [user] = useContext(UserContext);
   useEffect(() => {
     axios
-      //.get("http://localhost:8080/api/v1/staticDropdown/colors")
       .get(URL, {
         headers: {
           "Content-Type": "application/json",

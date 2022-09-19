@@ -13,7 +13,6 @@ function StakeHolder(props) {
       headers: {
         "Content-Type": "application/json",
        "Authorization" : "Bearer "+user
-      //  "Authorization" : "Bearer eyJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJzaG9wIiwiZXhwIjoxNjYzMjU1MTU3LCJpYXQiOjE2NjMyMTkxNTd9.fiMl96X4Ar9l5j7-s0daDXkMXcJmW3XvAtdx5OqS3IE"
       },
     })
       .then((response) => {

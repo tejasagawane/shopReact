@@ -10,10 +10,6 @@ function Brand(props) {
   const [brands, setBrands] = useState([]);
   const [user] = useContext(UserContext);
   useEffect(() => {
-    // axios
-    //   .get("http://localhost:8080/api/v1/staticDropdown/brands")
-    
-
     axios
       .get(URL, {
         headers: {
